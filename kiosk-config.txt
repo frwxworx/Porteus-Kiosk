@@ -1,0 +1,16 @@
+connection=wired
+netmask=255.255.255.0
+ip_address=172.18.0.65
+default_gateway=172.18.0.1
+dns_server=8.8.8.8 208.67.222.222
+network_interface=eth0
+browser=firefox
+autohide_navigation_bar=yes
+homepage=https://new.totalizators.lv/likmju-pienemsanas-punkti/
+root_password=bmw
+timezone=Europe/Riga
+vnc_interactive=yes
+vnc_password=bmw
+wallpaper=https://raw.githubusercontent.com/frwxworx/Porteus-Kiosk/master/Wallpaper/wallpaper.png
+wake_on_lan=yes
+additional_components=09-x11vnc.xzm uefi.zip 08-ssh.xzm initrdpxe.xz 05-flash.xzm
