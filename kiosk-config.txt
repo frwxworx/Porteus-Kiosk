@@ -1,0 +1,14 @@
+connection=wired
+netmask=255.255.255.0
+ip_address=172.18.0.65
+default_gateway=172.18.0.1
+dns_server=8.8.8.8 208.67.222.222
+network_interface=eth0
+browser=firefox
+homepage=http://www.ss.lv
+vnc_interactive=yes
+vnc_password=1
+wake_on_lan=yes
+kiosk_config=https://raw.githubusercontent.com/frwxworx/Porteus-Kiosk/master/kiosk-config.txt
+allow_popup_windows=yes
+additional_components=09-x11vnc.xzm uefi.zip initrdpxe.xz 05-flash.xzm
